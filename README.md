@@ -60,3 +60,10 @@ The results are beautifully visualized using `matplotlib`. The plot maps the ent
 
 ```bash
 pip install yfinance pandas numpy matplotlib
+
+### Configurations
+```Python
+TICKERS = ['BBCA.JK', 'BBRI.JK', 'BMRI.JK', 'TLKM.JK', 'ASII.JK']
+RISK_FREE_RATE = 0.02 # Annual risk-free rate (e.g., 2%)
+NUM_PORTFOLIOS = 50000
+
