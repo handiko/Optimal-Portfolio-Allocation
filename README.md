@@ -65,7 +65,7 @@ pip install yfinance pandas numpy matplotlib
 ### Configurations
 
 ```Python
-TICKERS = ['BBCA.JK', 'BBRI.JK', 'BMRI.JK', 'TLKM.JK', 'ASII.JK']
+TICKERS = ['META', 'MSFT', 'NVDA', 'AAPL', 'AMZN', 'GOOG']
 RISK_FREE_RATE = 0.02 # Annual risk-free rate (e.g., 2%)
 NUM_PORTFOLIOS = 50000
 ```
