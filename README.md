@@ -144,4 +144,8 @@ The Efficient Frontier Plot:
 
 ---
 
+Related Project: [Quantitative Portfolio Performance Simulation and Analysis](https://github.com/handiko/Quantitative-Fund-Portfolio-Performance-Simulation-and-Analysis/blob/main/README.md)
+
+---
+
 Back to [Index](https://github.com/handiko/handiko/blob/master/README.md)
