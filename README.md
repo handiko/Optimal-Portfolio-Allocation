@@ -69,3 +69,74 @@ TICKERS = ['BBCA.JK', 'BBRI.JK', 'BMRI.JK', 'TLKM.JK', 'ASII.JK']
 RISK_FREE_RATE = 0.02 # Annual risk-free rate (e.g., 2%)
 NUM_PORTFOLIOS = 50000
 ```
+
+### Results
+
+The compositions:
+```bash
+--- Portfolio Optimization Results (50000 Simulations) ---
+Tickers: META, MSFT, NVDA, AAPL, AMZN, GOOG
+Risk-Free Rate: 2.00%
+
+--- Portfolio with MAXIMUM SHARPE RATIO ---
+Annual Return:        53.43%
+Annual Volatility:    37.22%
+Sharpe Ratio:         1.3818
+Sortino Ratio:        1.3912
+Calmar Ratio:         0.9654
+
+Allocation Weights:
+  GOOG : 62.60%
+  MSFT : 16.49%
+  META : 8.55%
+  NVDA : 6.24%
+  AMZN : 6.02%
+  AAPL : 0.10%
+
+--- Portfolio with MINIMUM VOLATILITY ---
+Annual Return:        26.96%
+Annual Volatility:    24.69%
+Sharpe Ratio:         1.0108
+Sortino Ratio:        0.9785
+Calmar Ratio:         0.7279
+
+Allocation Weights:
+  NVDA : 31.11%
+  META : 29.35%
+  AMZN : 27.73%
+  MSFT : 10.77%
+  AAPL : 0.62%
+  GOOG : 0.42%
+
+--- Portfolio with MAXIMUM SORTINO RATIO ---
+Annual Return:        57.60%
+Annual Volatility:    40.40%
+Sharpe Ratio:         1.3763
+Sortino Ratio:        1.4095
+Calmar Ratio:         0.9757
+
+Allocation Weights:
+  GOOG : 73.81%
+  AMZN : 8.52%
+  MSFT : 8.11%
+  NVDA : 6.57%
+  META : 2.92%
+  AAPL : 0.07%
+
+--- Portfolio with MAXIMUM CALMAR RATIO ---
+Annual Return:        44.29%
+Annual Volatility:    31.96%
+Sharpe Ratio:         1.3232
+Sortino Ratio:        1.3104
+Calmar Ratio:         1.0056
+
+Allocation Weights:
+  META : 49.95%
+  GOOG : 41.53%
+  NVDA : 4.10%
+  MSFT : 2.49%
+  AMZN : 1.46%
+  AAPL : 0.48%
+```
+
+The Efficient Frontier Plot:
