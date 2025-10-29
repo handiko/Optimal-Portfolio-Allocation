@@ -140,3 +140,4 @@ Allocation Weights:
 ```
 
 The Efficient Frontier Plot:
+![](./output.png)
