@@ -1,10 +1,10 @@
-# 🚀 Multi-Criteria Portfolio Optimizer: Monte Carlo Allocation Engine
+# Multi-Criteria Portfolio Optimizer: Monte Carlo Allocation Engine
 
 This project provides a robust Python solution for determining **optimal portfolio allocations** based on a set of user-defined stock tickers and historical data. Utilizing the **Monte Carlo Simulation** technique, this tool identifies portfolios that excel across several key risk-adjusted metrics, moving beyond just the traditional Sharpe Ratio to offer a more nuanced view of capital efficiency and risk management.
 
 ---
 
-## ⚙️ Core Technical Architecture and Methodology
+## Core Technical Architecture and Methodology
 
 The system is built around the financial engineering principle of the **Efficient Frontier**, computationally searching the space of all possible weight combinations to find the highest return for a given level of risk (volatility).
 
@@ -39,7 +39,7 @@ The implementation of **Max Drawdown** involves calculating the cumulative retur
 
 ---
 
-## ✨ Identifying the Optimal Portfolios
+## Identifying the Optimal Portfolios
 
 The simulation results are collated into a `pandas.DataFrame`, enabling efficient identification of four critical benchmark portfolios:
 
@@ -48,13 +48,13 @@ The simulation results are collated into a `pandas.DataFrame`, enabling efficien
 3.  **Max Sortino Ratio Portfolio**: The most effective portfolio in mitigating **downside risk**.
 4.  **Max Calmar Ratio Portfolio**: The most effective portfolio for **capital preservation** against significant historical losses.
 
-## 🖼️ Visualization: The Efficient Frontier
+## Visualization: The Efficient Frontier
 
 The results are beautifully visualized using `matplotlib`. The plot maps the entire simulated universe in the **Return vs. Volatility** space. Portfolios are color-coded by their **Sharpe Ratio** for instant insight into efficiency, and the four optimal portfolios are highlighted with distinct markers to pinpoint the best allocations according to each specific risk metric.
 
 ---
 
-## 🛠️ Getting Started
+## Getting Started
 
 ### Prerequisites
 
